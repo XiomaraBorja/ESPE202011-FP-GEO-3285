@@ -35,24 +35,24 @@ public class BasicOperations {
         int module;
         
         
-        minuend = -23;
-        subtrahend = -6; 
+        minuend = -22;
+        subtrahend = -4; 
         
-        multiplier = 8;
-        multiplying = 12;
+        multiplier = 7;
+        multiplying = 10;
         
-        dividing = 45;
-        divider = 9;
+        dividing = 35;
+        divider = 5;
         
         dividingg = 8;
-        dividierr = 4;
+        dividierr = 2;
         
-        //-23 - (-6)= -23 + 6 = -17
-        //8*12=96
-        //45/9=5
+        //-22 - (-4)= -22 + 4 = -18
+        //7*10=70
+        //35/5=7
         //initilization
         addend1 = 5;
-        addend2 = 18;
+        addend2 = 15;
         
         //operation
         sum = addend1 + addend2;
