@@ -48,36 +48,33 @@ int addend1;
                 sum = addend1 + addend2;
                System.out.println("the addition is --> " + sum);
                break;
- 
-      
+
             case 2:
 
      Scanner in = new Scanner(System.in);
    int B=0,b=0,h=0,A=0;
-   System.out.println("Ingrese el valor de la base mayor del trapecio");
+   System.out.println("Enter number >  trapezoid");
    B=in.nextInt();
-   System.out.println("Ingrese el valor de la base menor del trapecio");
+   System.out.println("Enter number <  trapezoid");
    b=in.nextInt();
-   System.out.println("Ingrese el valor de la altura del trapecio");
+   System.out.println("Enter number  h trapezoid");
    h=in.nextInt();
    A=((B+b)/2)*h;
-   System.out.println("El valor de area del trapecio es " +A);
+   System.out.println("The area value of the trapezoid " +A);
     break;
 
-                
-           
             case 3:
                 
       int r;
       int H;
       int vcili;
       
-        System.out.println("ingrese el radio del cilindro : ");
+        System.out.println("Enter the number r  cylinder : ");
          r = input.nextInt();
-        System.out.println("Ingrese la altura del cilindro");
+        System.out.println("Enter the number h  cylinder");
         H = input.nextInt();
         vcili = (int) ((3.1416) * (r *r) * (H));
-        System.out.println("El volumen de un cilindro -> " + vcili + "cms3");
+        System.out.println("The volume of a cylinder -> " + vcili + "cms3");
         break;
             case 4:   
 
