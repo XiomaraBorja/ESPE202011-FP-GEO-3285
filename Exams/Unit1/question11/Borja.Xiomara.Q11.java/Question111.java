@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package question11;
+package question111;
 
 import java.util.Scanner;
 
@@ -11,23 +11,23 @@ import java.util.Scanner;
  *
  * @author HP
  */
-public class Question11 {
+public class Question111 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-         Scanner input = new Scanner (System.in);
+        Scanner input = new Scanner (System.in);
         boolean mainLoop = true;
         int option = 0;
         
         do {
-            System.out.println("you want to close the program enter 0 in the main menu"
-                    + "Hello, with this program you will be able to "
+            System.out.println("Hello, with this program you will be able to "
                     + "improve your ability with the multiplication tables, "
                     + "so choose the option 1 so you can enter the number of "
-                    + "which you want to know its multiplication table, and if ");
+                    + "which you want to know its multiplication table, and if "
+                    + "you want to close the program enter 0 in the main menu");
             System.out.println("1.-Multiplication table of a number");
             System.out.println("0.- Exit");
             
@@ -56,7 +56,6 @@ public class Question11 {
                 default :
                     System.out.println("invalid option\n\n");
                     break;
-                 
                     
             }
         } while ( option !=0);
@@ -64,9 +63,5 @@ public class Question11 {
         // TODO code application logic here
     }
     
-}
-
-
-
-
-   
+    }
+    
