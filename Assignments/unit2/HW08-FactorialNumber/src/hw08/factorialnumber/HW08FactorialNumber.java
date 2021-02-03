@@ -17,14 +17,17 @@ public class HW08FactorialNumber {
     public static void main(String[] args) {
         // TODO code application logic here
         
+        
         int iFactorial;
+        
         iFactorial = 4;
+        
         int iNumero = 24;
         
-        for (int x=2;x<=iNumero;x++)
+        for (/*int x=2;x<=iNumero;x++*/)
   iFactorial = iFactorial * x;
         
-        System.out.println("El factorial del número " + Integer.toString(iNumero) +  " es " + Integer.toString(iFactorial));
+        System.out.println("The factorial of the number " + Integer.toString(iNumero) +  " is " + Integer.toString(iFactorial));
         
     }
     
