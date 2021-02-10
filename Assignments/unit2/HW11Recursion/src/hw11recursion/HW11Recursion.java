@@ -33,10 +33,8 @@ public class HW11Recursion {
         
         System.out.print(m[i][j] + " ");
  
-       
         if (i != m.length - 1 || j != m[i].length - 1) {
  
-           
             if (j == m[i].length - 1) {
                
                 i++;
@@ -51,10 +49,10 @@ public class HW11Recursion {
  
       
             MatrizRecursivorecorridodenumeros(m, i, j);
+            
  
         }
  
     }
- 
-}
-	
+    
+   
