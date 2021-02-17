@@ -74,46 +74,59 @@ public class HW12Taxes {
                     System.out.printf("You have to pay basic fraction tax $154. \n ");
                     System.out.printf(" Your payment to the excess fraction tax is.$ " + excessfractiontax + "\n");
                 }
-                  double base;
-
-       double porcentaje;
-
-       double total;
-
-       double iva;
-
-       Scanner leer = new Scanner(System.in);
-
-       CalculaIva calculador = new CalculaIva();
-
- 
-
-       System.out.println("o.01:");
-
-       base = leer.nextDouble();
-
- 
-
-       System.out.println("0.12:");
-
-       porcentaje = leer.nextDouble();
-
-       iva = calculador.obtenerIva(base, porcentaje);
-
-       total = base + iva;
-
- 
-
-       System.err.println("0.01: " + base);
-
-       System.err.println("0.12: " + iva);
-
-       System.err.println("0.12: " + total);
-}    
-       
-                
-                
-
+                Scanner input = new Scanner(System.in);
+        boolean mainLoop = true;
+        int option = 0;
+        while (option > 2) {
+            System.out.println("");
+        }
+        do {
+            System.out.println("");
+            System.out.println("");
+            System.out.println("Hello, if you want to know the value added tax "
+                    + "of a product or service, first check the SRI page, "
+                    + "where you can review Goods and services taxed with a "
+                    + "0% IVA rate.\n"
+                    + "https://www.sri.gob.ec/web/guest/impuesto-al-valor-agregado-iva"
+                    + "\n"
+                    + "If your good or service is not in this list mentioned "
+                    + "above, please choose option 1.\n"
+                    + "\n"
+                    + "Otherwise choose option 2 to exit. ");
+            System.out.println("---------------------------------------------");
+            System.out.println("1.----> Know the IVA value to pay of a "
+                    + "good or service ");
+            System.out.println("2.----> Exit ");
             
-                
-        
+            System.out.println("");
+            System.out.println("Enter your menu option-->");
+            option = input.nextInt();
+
+            switch (option) {
+
+                case 1:
+                    System.out.println("Enter the Value of product");
+
+                    float ValueProdcut = input.nextFloat();
+                    float ValueIVA = PrintValueTax(ValueProdcut);
+                    ;
+
+                    System.out.println("The IVA is " + ValueIVA );
+                    break;
+
+                case 2:
+                    System.out.println("Until next time");
+                    System.exit(0);
+                    break;
+                default:
+                    System.out.println("invalid option\n\n");
+                    break;
+
+            }
+        } while (option != 2);
+
+    }
+//------------------------------------------------------------------------------
+
+    
+                  
