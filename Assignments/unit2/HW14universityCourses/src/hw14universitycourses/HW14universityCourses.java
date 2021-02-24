@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author HP
+ * @author Xiomara Borja
  */
 public class HW14universityCourses {
 
