@@ -21,7 +21,7 @@ public class WS10Functions {
         float quotient = 0;
         int x = 0;
         int y = 0;
-
+System.out.println("AUTHOR: Xiomara Borja");
         //call to divideTwoNumbers() function
         quotient = divideTwoNumbers(divd, divr);
 
